@@ -1,0 +1,1291 @@
+[
+ {
+  "id": "EUREMAP_001",
+  "title": "Metagenomic read assembly with taxonomic and functional assignments.",
+  "step": "Genomics",
+  "institution": "EMBL's European Bioinformatics Institute",
+  "country": "United Kingdom",
+  "access": [
+   "Virtual"
+  ],
+  "ri": [
+   "EMBL"
+  ],
+  "overview": "Assembly and analysis of raw DNA sequencing reads from environmental or biological samples to identify which organisms are present and what functions they may perform. The service includes quality control, taxonomic classification, gene prediction, and functional annotation using trusted databases. Results can reveal biological pathways, biosynthetic potential for natural product production, and other functional insights.",
+  "conditions": "Free; raw reads submission to ENA (EMBL-EBI) required",
+  "unit": "MGnify at EMBL-EBI",
+  "reference": "www.ebi.ac.uk/metagenomics",
+  "stepFull": "Genomics"
+ },
+ {
+  "id": "EUREMAP_002",
+  "title": "MAG generation and analysis with quality assessment and taxonomic assignment.",
+  "step": "Genomics",
+  "institution": "EMBL's European Bioinformatics Institute",
+  "country": "United Kingdom",
+  "access": [
+   "Virtual"
+  ],
+  "ri": [
+   "EMBL"
+  ],
+  "overview": "Metagenome Assembled Genomes (MAGs) generation and analysis pipeline. The service includes quality assessment of recovered genomes and determination of their taxonomic origin.",
+  "conditions": "Free; raw reads submission to ENA (EMBL-EBI) required",
+  "unit": "MGnify at EMBL-EBI",
+  "reference": "www.ebi.ac.uk/metagenomics",
+  "stepFull": "Genomics"
+ },
+ {
+  "id": "EUREMAP_003",
+  "title": "Prediction, exploration and analysis of biosynthetic gene clusters from metagenomic datasets.",
+  "step": "Genomics",
+  "institution": "EMBL's European Bioinformatics Institute",
+  "country": "United Kingdom",
+  "access": [
+   "Virtual"
+  ],
+  "ri": [
+   "EMBL"
+  ],
+  "overview": "Platform for the prediction, exploration and analysis of BGCs from metagenomic datasets.The service includes an analysis pipeline, a large searchable database, a user-friendly data portal, and tools that enable both scientists and developers to access and analyse the data.",
+  "conditions": "Free; raw reads submission to ENA (EMBL-EBI) required",
+  "unit": "MGnify at EMBL-EBI",
+  "reference": "www.ebi.ac.uk/finn-srv/mgnify-bgcs",
+  "stepFull": "Genomics"
+ },
+ {
+  "id": "EUREMAP_004",
+  "title": "Illumina and ONT sequencing with metagenome assembly, annotation, and genome analysis.",
+  "step": "Genomics",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "Metagenomics assembly and analysis pipeline including short-read, long-read and hybrid assembly, functional and taxonomic annotation, MAG generation and connected analysis, and primary analysis of prokaryotic genomes.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/molecular-biology-laboratory/",
+  "stepFull": "Genomics"
+ },
+ {
+  "id": "EUREMAP_005",
+  "title": "Automated metagenomic assembly and analysis pipeline based on Nextflow",
+  "step": "Genomics",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "Metagenomic assembly and analysis pipeline based on Nextflow. The service provides an automated workflow for processing metagenomic datasets.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/molecular-biology-laboratory/",
+  "stepFull": "Genomics"
+ },
+ {
+  "id": "EUREMAP_006",
+  "title": "Detection of BGCs using antiSMASH, BiG-SCAPE and Sanntis.",
+  "step": "Genomics",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "BGC detection pipeline using antiSMASH, BiG-SCAPE and Sanntis. This service includes full genome assembly and identification of BGCs",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/molecular-biology-laboratory/",
+  "stepFull": "Genomics"
+ },
+ {
+  "id": "EUREMAP_007",
+  "title": "Cultivation of bacteria and fungi, 1 ml-50 L scale",
+  "step": "Biomass production",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "Cultivation of microorganisms for biomass production, including all types of bacteria, including anaerobes, and fungi. This service includes culture scale-up to volumes of up to 50 L.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/fermentation-laboratory-at-sintef/",
+  "stepFull": "Biomass production"
+ },
+ {
+  "id": "EUREMAP_008",
+  "title": "Aerobic microbial biomass production using automated bioreactors, with scale-up to 10 L.",
+  "step": "Biomass production",
+  "institution": "Sorbonne Université",
+  "country": "France",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "Production of microbial biomass from cultured strains under aerobic conditions in different formats using a suite of INFORS automated bioreactors ranging from 0.5 to 2 L, including four photobioreactors. This service includes scale-up to 10 L through continuous to semi-continuous cultivation, as well as optimisation of culture conditions using eight replicate bioreactors. Shake Flask Cultivation on INFORS Incubators with flask volumes up to 3L",
+  "conditions": "Since it depends on the strain, contact the service",
+  "unit": "Bio2Mar platform, Sorbonne Université, Observatoire Océanologique de Banyuls",
+  "reference": "www.embrc-france.fr/en/nos-services/plate-formes-technologiques/culture-and-biomass",
+  "stepFull": "Biomass production"
+ },
+ {
+  "id": "EUREMAP_009",
+  "title": "Extraction of culture media at scales of up to 100 g / 5 L.",
+  "step": "Chemical Extraction",
+  "institution": "UiT The Artic University of Norway",
+  "country": "Norway",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes extraction of culture media at scales of up to 100 g / 5 L.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marbio , Faculty of Biosciences, fisheries & economics",
+  "reference": "en.uit.no/forskning/forskningsgrupper/sub?p_document_id=380005&sub_id=602146",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_010",
+  "title": "Extraction of culture media at scales of up to 20 L",
+  "step": "Chemical Extraction",
+  "institution": "MEDINA",
+  "country": "Spain",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes extraction of culture media at scales of up to 20 L.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Fundación MEDINA",
+  "reference": "www.medinadiscovery.com/services_groups_l3/natural-products-chemistry/",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_011",
+  "title": "Extraction of culture media at scales of up to 5 L.",
+  "step": "Chemical Extraction",
+  "institution": "Tel Aviv University",
+  "country": "Israel",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes extraction of culture media at scales of up to 5 L.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Porifera (Sponges) Research Group",
+  "reference": "milan35.wixsite.com/tau-porifera",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_012",
+  "title": "Extraction of biomass and culture media at scales of up to 5 L.",
+  "step": "Chemical Extraction",
+  "institution": "Stazione Zoologica Anton Dohrn Napoli",
+  "country": "Italy",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes extraction of biomass and culture media at scales of up to 5 L.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Ecostustainable Marine Biotechnology Department",
+  "reference": "www.szn.it",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_013",
+  "title": "Extraction of biomass and culture media at scales of up to 5 L.",
+  "step": "Chemical Extraction",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes extraction of biomass and culture media at scales of up to 5 L. The service can be customised according to client demand. Pellet and culture media can be extracted separately or combined using organis or aqueous solvents.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Protein/Chemistry Platform - Marine Resources - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_014",
+  "title": "Extraction of cell pellets from cultures of up to 40 L.",
+  "step": "Chemical Extraction",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes extraction of cell pellets from cultures of up to 40 L.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/explore-our-services/",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_015",
+  "title": "Extraction of culture media at scales of up to 10 g.",
+  "step": "Chemical Extraction",
+  "institution": "CNR",
+  "country": "Italy",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes extraction of culture media at scales of up to 10 g.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "CNR-Institute of Biomolecular Chemistry (ICB)",
+  "reference": "www.icb.cnr.it/",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_016",
+  "title": "Extraction of culture media at scales of up to 5 L.",
+  "step": "Chemical Extraction",
+  "institution": "Sorbonne Université",
+  "country": "France",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes extraction of culture media at scales of up to 5 L.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Bio2Mar platform, Sorbonne Université, Observatoire Océanologique de Banyuls",
+  "reference": "www.embrc-france.fr/en/nos-services/plate-formes-technologiques/culture-and-biomass",
+  "stepFull": "Chemical Extraction"
+ },
+ {
+  "id": "EUREMAP_017",
+  "title": "Screening for antimicrobial, anticancer, immunomodulatory and antioxidant activities",
+  "step": "Bioassays & bioprofiling",
+  "institution": "UiT The Artic University of Norway",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes bioactivity screening for antimicrobial, anticancer, immunomodulatory and antioxidant activities. Required sample amount for testing is 500 µg of extract per assay or a purified compound.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marbio , Faculty of Biosciences, fisheries & economics",
+  "reference": "en.uit.no/forskning/forskningsgrupper/sub?p_document_id=380005&sub_id=602146",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_018",
+  "title": "Screening for antimicrobial, anticancer, immunomodulatory, antioxidant, agriculture and crop, enzyme, protein-protein interaction and ADMET activities",
+  "step": "Bioassays & bioprofiling",
+  "institution": "MEDINA",
+  "country": "Spain",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes bioactivity screening for antimicrobial, anticancer, immunomodulatory and antioxidant activities, as well as agriculture and crop assays, enzyme assays, protein-protein interaction assays and ADMET profiling",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Fundación MEDINA",
+  "reference": "www.medinadiscovery.com/services_groups/screening-services/",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_019",
+  "title": "Evaluation of antifouling activity for marine and aquatic environments",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Ghent University",
+  "country": "Belgium",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes evaluation of antifouling activity for marine and aquatic environments.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marine@UGent",
+  "reference": "www.ugent.be/marine/en/research-facilities",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_020",
+  "title": "Evaluation of antimicrobial (antibacterial and antifungal) and antibiofilm activity of extracts or compounds for human health.",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Ghent University",
+  "country": "Belgium",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes evaluation of antimicrobial and antibiofilm activity of extracts or compounds for human health.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Laboratory of Pharmaceutical Microbiology (LPM)",
+  "reference": "www.ugent.be/fw/pharmaceutical-analysis/en/research/micro/contractwork",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_021",
+  "title": "Screening for antimicrobial activity (antibacterial)",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Tel Aviv University",
+  "country": "Israel",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes antimicrobial bioassays.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Porifera (Sponges) Research Group",
+  "reference": "milan35.wixsite.com/tau-porifera",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_022",
+  "title": "Screening for antimicrobial, anticancer and antioxidant activities.",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Stazione Zoologica Anton Dohrn Napoli",
+  "country": "Italy",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes bioactivity screening for antimicrobial, anticancer and antioxidant activities. Required sample amount is 1-10 mg of extract",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Ecostustainable Marine Biotechnology Department",
+  "reference": "www.szn.it",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_023",
+  "title": "ECIS (electric cell-substrate impedance sensing)-based measurement of TEER, proliferation, toxicity, wound healing and cell migration",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes ECIS-based measurement of TEER, proliferation, toxicity, wound healing and cell migration",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Protein Platform - Marine Resources - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_024",
+  "title": "MTT Cell Metabolic Activity Assay",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes dose-response toxicity assessment in human cell lines, including liver, monocyte, macrophage, astrocytes, neurones, colon, lung, and kidney models. Mouse and rate cell lines.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Protein Platform - Marine Resources - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_025",
+  "title": "Screening of chemicals/drugs eliciting cell signalling linked to receptor activation, customisable to user requirements",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "Standard ligand GPCR screening can be performed, dose response kinetics with cell lines stably expressing invertebrate and vertebrate GPCRs. The service can be customised according to client needs.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Protein Platform - Marine Resources - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_026",
+  "title": "Screening for antimicrobial, antifungal, lipase, chitinase, collaginase, proteinase, cellulase, amylase, antioxidant activities",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service consists of low throughput (few samples) to 96 well throughput screening for bioactivity either with bacteria/fungi or extracts. Screening scope can be customised. Require bacterial or fungal isolate or extract (100 ul or less if only part of the screening panel is used).",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Protein Platform - Marine Resources - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_027",
+  "title": "Screening for antimicrobial, anticancer, antiviral, immunomodulatory and antioxidant bioactivities.",
+  "step": "Bioassays & bioprofiling",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes bioactivity screening for antimicrobial, anticancer, antiviral, immunomodulatory and antioxidant activities. Some enzyme assays are established and new assays can be established on request.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/high-throughput-screening-facility-trondheim/",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_028",
+  "title": "Kinase enzymatic assays requiring 250 µg of extract per assay or purified compounds",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Sorbonne Université",
+  "country": "France",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes kinase enzymatic assays. Required sample amount for testing is 250 µg of extract per assay or purified compounds",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "KISSf: Kinase Inhibition Specialized Screening facility",
+  "reference": "www.sb-roscoff.fr/fr/station-biologique-de-roscoff/services/plateformes-technologiques/kissf-plate-forme-de-criblage-d-inhibiteurs-de-proteines-kinases",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_029",
+  "title": "Target fishing and mode-of-action analysis by chemoproteomics",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Helmholtz Centre for Infection Research",
+  "country": "Germany",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes target fishing and mode-of-action analysis by chemoproteomics.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Chemical Biology (CBIO)",
+  "reference": "www.helmholtz-hzi.de/en/research/research-groups/details/chemical-biology/",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_030",
+  "title": "Dose-response safety assessment in human cell lines, including lung, liver, colon, monocyte, neurone, astrocytes and kidney models.",
+  "step": "Bioassays & bioprofiling",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes dose-response toxicity assessment in human, mouse and rat cell lines.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Protein Platform - Marine Resources - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_031",
+  "title": "Dose-response bioactivity assays (MIC70 and anticancer cell viability assays)",
+  "step": "Bioassays & bioprofiling",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "Dose-response assessment using a minimum inhibitory concentration (MIC) assay for bacteria or viability assay for cancer cell lines. We use 96, 384, and 1536 well formate.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/high-throughput-screening-facility-trondheim/",
+  "stepFull": "Bioassays & bioprofiling"
+ },
+ {
+  "id": "EUREMAP_032",
+  "title": "Dose-response assay for human safety and ecotox assessment",
+  "step": "Safety & toxicity",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "In vitro safety assessments in a 384-well format, including dose-response toxicity testing in human liver and porcine kidney cell models. Ecotoxicity assessment includes viability testing of rainbow trout gill cells (RTgill) and determination of LD50 values in marine and terrestrial invertebrate models including crustacean nauplii and green algae. We offer in vitro ADMET testing using the HepG2 (liver) cell line to support early-stage evaluation of hepatotoxicity, cellular uptake, and metabolic effects to aid compound selection and optimization.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/explore-our-services/",
+  "stepFull": "Safety and toxicity profiling"
+ },
+ {
+  "id": "EUREMAP_033",
+  "title": "In vivo safety assessment in mice, including compound concentration in blood and selected organs.",
+  "step": "Safety & toxicity",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "In vivo safety assessment in mice, including dose-ranging studies, determination of maximum tolerated and lethal doses, and measurement of compound concentrations in blood and selected organs.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/explore-our-services/",
+  "stepFull": "Safety and toxicity profiling"
+ },
+ {
+  "id": "EUREMAP_034",
+  "title": "Dose-response toxicity assessment in human cell lines, with transcriptomic analysis for off-target toxicity and unknown mode of action.",
+  "step": "Safety & toxicity",
+  "institution": "Ghent University",
+  "country": "Belgium",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes dose-response toxicity assessment in human cell lines, including lung, liver and gut models, together with transcriptomic analysis to investigate off-target toxicity or an unknown mode of action.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marine@UGent",
+  "reference": "www.ugent.be/marine/en/research-facilities",
+  "stepFull": "Safety and toxicity profiling"
+ },
+ {
+  "id": "EUREMAP_035",
+  "title": "Dose-response toxicity assessment in freshwater and marine non-vertebrate model organisms.",
+  "step": "Safety & toxicity",
+  "institution": "Ghent University",
+  "country": "Belgium",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes dose-response toxicity assessment in freshwater and marine non-vertebrate model organisms.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marine@UGent",
+  "reference": "www.ugent.be/marine/en/research-facilities",
+  "stepFull": "Safety and toxicity profiling"
+ },
+ {
+  "id": "EUREMAP_036",
+  "title": "Chemical profiling using UHPLC-IMS-DAD-HR-MS2 with data acquisition and interpretation.",
+  "step": "Chemical profiling",
+  "institution": "UiT The Artic University of Norway",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes data acquisition and interpretation using UHPLC-IMS-DAD-HR-MS2 for chemical profiling.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marbio , Faculty of Biosciences, fisheries & economics",
+  "reference": "en.uit.no/forskning/forskningsgrupper/sub?p_document_id=380005&sub_id=602146",
+  "stepFull": "Chemical profiling"
+ },
+ {
+  "id": "EUREMAP_037",
+  "title": "Chemical profiling using UHPLC-HR-MS, UHPLC-HR-MSn and 500 MHz NMR with data acquisition and interpretation.",
+  "step": "Chemical profiling",
+  "institution": "MEDINA",
+  "country": "Spain",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes data acquisition and interpretation using UHPLC-HR-MS, UHPLC-HR-MSn and 500 MHz NMR for chemical profiling.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Fundación MEDINA",
+  "reference": "www.medinadiscovery.com/services_groups_l3/natural-products-chemistry/",
+  "stepFull": "Chemical profiling"
+ },
+ {
+  "id": "EUREMAP_038",
+  "title": "Chemical profiling using HPLC-HR-MS/MS2 with data acquisition and interpretation.",
+  "step": "Chemical profiling",
+  "institution": "Stazione Zoologica Anton Dohrn Napoli",
+  "country": "Italy",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes data acquisition and interpretation using HPLC-HR-MS/MS2 for chemical profiling.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Ecostustainable Marine Biotechnology Department",
+  "reference": "www.szn.it",
+  "stepFull": "Chemical profiling"
+ },
+ {
+  "id": "EUREMAP_039",
+  "title": "Chemical profiling using HR-MS, HR-MSn and IMS.",
+  "step": "Chemical profiling",
+  "institution": "Helmholtz Centre for Infection Research",
+  "country": "Germany",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes chemical profiling using HR-MS, HR-MSn and ion mobility spectrometry (IMS).",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Chemical Biology (CBIO)",
+  "reference": "www.helmholtz-hzi.de/en/research/research-groups/details/chemical-biology/",
+  "stepFull": "Chemical profiling"
+ },
+ {
+  "id": "EUREMAP_040",
+  "title": "Chemical profiling using HPLC/UHPLC, RapidFire, DAD, QTOF, QQQ, FT-ICR-MS, MALDI and GC.",
+  "step": "Chemical profiling",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes chemical profiling using HPLC/UHPLC, RapidFire, DAD, QTOF, QQQ, FT-ICR-MS, MALDI and GC platforms.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/advanced-research-based-analyses/",
+  "stepFull": "Chemical profiling"
+ },
+ {
+  "id": "EUREMAP_041",
+  "title": "Chemical profiling using UHPLC-HR-MS, UHPLC-HR-MSn, GC-HR-MS, 500 MHz NMR, IR and CD.",
+  "step": "Chemical profiling",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes chemical profiling using UHPLC-MS, UHPLC-MSn, GC-MS, infrared spectroscopy (IR) and circular dichroism (CD). Data is made available and annotation can be provided if agreed in the scope of the service.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Chemistry Platform - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Chemical profiling"
+ },
+ {
+  "id": "EUREMAP_042",
+  "title": "UHPLC-HRMS2-based chemical profiling with feature extraction, and optional statistical analysis and annotation.",
+  "step": "Chemical profiling",
+  "institution": "Sorbonne Université",
+  "country": "France",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes chemical profiling by UHPLC-HRMS2. Profile extraction is provided as a pivot table of entities, or ions, per sample. Statistical analyses and annotation may also be performed, depending on the agreed scope of the service.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "LBBM, Sorbonne Université, Observatoire Océanologique de Banyuls",
+  "reference": "www.embrc-france.fr/en/nos-services/plate-formes-technologiques/culture-and-biomass",
+  "stepFull": "Chemical profiling"
+ },
+ {
+  "id": "EUREMAP_043",
+  "title": "Large-scale fractionation using column chromatography, flash chromatography and preparative HPLC",
+  "step": "Chromatography",
+  "institution": "UiT The Artic University of Norway",
+  "country": "Norway",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes large-scale fractionation using column chromatography, flash chromatography and preparative HPLC. Purification is supported for 1-30 mg from 20 g of extract, with automation triggered by MS, time and UV/VIS.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marbio , Faculty of Biosciences, fisheries & economics",
+  "reference": "en.uit.no/forskning/forskningsgrupper/sub?p_document_id=380005&sub_id=602146",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_044",
+  "title": "Fractionation and purification of extracts to obtain pure compounds.",
+  "step": "Chromatography",
+  "institution": "MEDINA",
+  "country": "Spain",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes fractionation and purification of extracts to obtain pure compounds.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Fundación MEDINA",
+  "reference": "www.medinadiscovery.com/services_groups_l3/natural-products-chemistry/",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_045",
+  "title": "Semi-preparative fractionation and preparative UV-based HPLC purification, with remote process control",
+  "step": "Chromatography",
+  "institution": "Tel Aviv University",
+  "country": "Israel",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes semi-preparative fractionation and preparative UV-based HPLC purification. The process is controlled remotely and supports purification of up to 100 mg of pure compound.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Porifera (Sponges) Research Group",
+  "reference": "milan35.wixsite.com/tau-porifera",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_046",
+  "title": "Fractionation of raw extracts to obtain pure compounds according to user needs.",
+  "step": "Chromatography",
+  "institution": "Stazione Zoologica Anton Dohrn Napoli",
+  "country": "Italy",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes fractionation of raw extracts through to pure compounds, depending on the needs of the user",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Ecostustainable Marine Biotechnology Department",
+  "reference": "www.szn.it",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_047",
+  "title": "Small- or medium-scale fractionation and purification.",
+  "step": "Chromatography",
+  "institution": "Helmholtz Centre for Infection Research",
+  "country": "Germany",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes fractionation and purification of raw extracts to isolate pure compounds. Compounds are separated on LC columns through organic solvent gradients and fractioned based on their UV absorption or at set time scales.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Chemical Biology (CBIO)",
+  "reference": "www.helmholtz-hzi.de/en/research/research-groups/details/chemical-biology/",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_048",
+  "title": "Small-, medium- or large-scale fractionation and purification.",
+  "step": "Chromatography",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "Semi-preparative fractionation and preparative UV-guided HPLC purification. Remote operation is supported, allowing isolation of up to 100 mg of purified compound.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/explore-our-services/",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_049",
+  "title": "Small-, medium- or large-scale fractionation and purification.",
+  "step": "Chromatography",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes fractionationof raw or partially fractionated extracts. Analytical or preparative UV/IR-based UHPLC purification. Scale and purity of compounds depend on user needs.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Chemistry Platform - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_050",
+  "title": "Small-, medium- or large-scale fractionation and purification.",
+  "step": "Chromatography",
+  "institution": "CNR",
+  "country": "Italy",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes fractionation of raw or partially fractionated extracts. Analytical or preparative UV/IR-based UHPLC purification. Scale and purity of compounds depend on user needs.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "CNR-Institute of Biomolecular Chemistry (ICB)",
+  "reference": "www.icb.cnr.it/",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_051",
+  "title": "Small-, medium- or large-scale fractionation and purification.",
+  "step": "Chromatography",
+  "institution": "Sorbonne Université",
+  "country": "France",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes fractionation of raw extracts through to pure compounds, depending on the needs of the user and the inherent possibilities due to extract complexity.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Bio2Mar, Sorbonne Université, Observatoire Océanologique de Banyuls",
+  "reference": "www.embrc-france.fr/en/nos-services/plate-formes-technologiques/culture-and-biomass",
+  "stepFull": "Chromatography & Purification"
+ },
+ {
+  "id": "EUREMAP_052",
+  "title": "Structure elucidation using LC-MS, LC-HRMS and IMS.",
+  "step": "Structure elucidation",
+  "institution": "UiT The Artic University of Norway",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-MS and LC-HRMS.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Marbio , Faculty of Biosciences, fisheries & economics",
+  "reference": "en.uit.no/forskning/forskningsgrupper/sub?p_document_id=380005&sub_id=602146",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_053",
+  "title": "Structure elucidation using LC-MS, LC-HRMS, NMR cryoprobe, IR, polarimetry and UV.",
+  "step": "Structure elucidation",
+  "institution": "MEDINA",
+  "country": "Spain",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-MS, LC-HRMS, NMR cryoprobe, IR, polarimetry and UV.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Fundación MEDINA",
+  "reference": "www.medinadiscovery.com/services_groups_l3/natural-products-chemistry/",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_054",
+  "title": "Structure elucidation using LC-MS and NMR.",
+  "step": "Structure elucidation",
+  "institution": "Tel Aviv University",
+  "country": "Israel",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-MS and NMR.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Porifera (Sponges) Research Group",
+  "reference": "milan35.wixsite.com/tau-porifera",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_055",
+  "title": "Structure elucidation using LC-MS, LC-HRMS and UV.",
+  "step": "Structure elucidation",
+  "institution": "Stazione Zoologica Anton Dohrn Napoli",
+  "country": "Italy",
+  "access": [
+   "Physical"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-MS, LC-HRMS and UV.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Ecostustainable Marine Biotechnology Department",
+  "reference": "www.szn.it",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_056",
+  "title": "Structure elucidation using LC-MS and LC-HRMS.",
+  "step": "Structure elucidation",
+  "institution": "Helmholtz Centre for Infection Research",
+  "country": "Germany",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-HRMS, IMS, UV-Vis and NMR",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Chemical Biology (CBIO)",
+  "reference": "www.helmholtz-hzi.de/en/research/research-groups/details/chemical-biology/",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_057",
+  "title": "Structure elucidation using LC-MS, LC-HRMS-MS/MS, MALDI-ESI and NMR.",
+  "step": "Structure elucidation",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-MS, LC-HRMS-MS/MS, MALDI-ESI and NMR.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/all-laboratories/advanced-research-based-analyses/",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_058",
+  "title": "Structure elucidation using LC-MS, LC-HRMS, IMS, NMR, IR, polarimetry and CD.",
+  "step": "Structure elucidation",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Physical",
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-MS, LC-HRMS, IMS, NMR, IR, polarimetry and circular dichroism (CD).",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Chemistry Platform - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_059",
+  "title": "Multi-technique structure elucidation using NMR, GC-MS, LC-HRMS, LC-MS/MS, IMS, IR, CD, UV and polarimetry.",
+  "step": "Structure elucidation",
+  "institution": "CNR",
+  "country": "Italy",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using NMR, GC-MS, LC-HRMS, LC-MS/MS, IMS, IR, CD, UV and polarimetry.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "CNR-Institute of Biomolecular Chemistry (ICB)",
+  "reference": "www.icb.cnr.it/",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_060",
+  "title": "Structure elucidation using LC-HRMS and MS/MS. Expertise on NMR analyses.",
+  "step": "Structure elucidation",
+  "institution": "Sorbonne Université",
+  "country": "France",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes data acquisition and interpretation for structure elucidation using LC-HRMS and MS/MS.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "LBBM, Sorbonne Université, Observatoire Océanologique de Banyuls",
+  "reference": "usr3579.obs-banyuls.fr/fr/personnel/chercheurs_contractuels/didier_stien2.html",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_061",
+  "title": "Structure elucidation by interpretation of 1D and 2D NMR data.",
+  "step": "Structure elucidation",
+  "institution": "MEDINA",
+  "country": "Spain",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes stereochemistry and chiral analysis using chemical methods (CM) and computational methods (CMP), including Mosher/Marfey, CChr and GD.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Fundación MEDINA",
+  "reference": "www.medinadiscovery.com/services_groups/chemistry-services/",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_062",
+  "title": "Stereochemistry and chiral analysis using chemical and computational methods, including Mosher/Marfey.",
+  "step": "Structure elucidation",
+  "institution": "Helmholtz Centre for Infection Research",
+  "country": "Germany",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes stereochemistry and chiral analysis using chemical methods (CM) and computational methods (CMP), including Mosher/Marfey, CChr and GD.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Chemical Biology (CBIO)",
+  "reference": "www.helmholtz-hzi.de/en/research/research-groups/details/chemical-biology/",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_063",
+  "title": "Stereochemistry and chiral analysis using chemical methods, optical rotation and chiral methods.",
+  "step": "Structure elucidation",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "This service includes stereochemistry and chiral analysis using chemical methods (CM) and computational methods (CMP), including CO (optical rotation) and CChr.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Chemistry Platform - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_064",
+  "title": "Stereochemistry and chiral analysis using chemical and computational methods.",
+  "step": "Structure elucidation",
+  "institution": "CNR",
+  "country": "Italy",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes stereochemistry assessment and chiral analysis using CM, CMP, CChr.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "CNR-Institute of Biomolecular Chemistry (ICB)",
+  "reference": "www.icb.cnr.it/",
+  "stepFull": "Structure elucidation"
+ },
+ {
+  "id": "EUREMAP_065",
+  "title": "Full synthesis, fluorescent analogues and click chemistry.",
+  "step": "Synthesis",
+  "institution": "Helmholtz Centre for Infection Research",
+  "country": "Germany",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes full synthesis (FS), fluorescent analogues (FA) and click chemistry.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Chemical Biology (CBIO)",
+  "reference": "www.helmholtz-hzi.de/en/research/research-groups/details/chemical-biology/",
+  "stepFull": "Synthesis & semi-synthesis"
+ },
+ {
+  "id": "EUREMAP_066",
+  "title": "Chemical modification of natural compounds to improve their pharmaceutical properties",
+  "step": "Synthesis",
+  "institution": "SINTEF",
+  "country": "Norway",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "Expert chemical modification of natural compounds to improve their pharmaceutical properties — transforming promising bioactive molecules into viable drug candidates through tailored derivatization strategies, coupled with assessment of druggability potential including solubility, stability, and bioactivity profiling of key derivatives.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Biotechnology and Nanomedicine at SINTEF Industry",
+  "reference": "www.sintef.no/en/explore-our-services/",
+  "stepFull": "Synthesis & semi-synthesis"
+ },
+ {
+  "id": "EUREMAP_067",
+  "title": "Assessment of synthesis target and success probability; proposed alternatives. Synthesis of analogues and Fluorescent analogues.",
+  "step": "Synthesis",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "Synthesis project evaluation, compund synthesis, purificaiton and validation, Fluorescently labelled analogs.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Chemistry Platform - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Synthesis & semi-synthesis"
+ },
+ {
+  "id": "EUREMAP_068",
+  "title": "Full synthesis, fluorescent analogues and isotope-labelled compounds.",
+  "step": "Synthesis",
+  "institution": "CNR",
+  "country": "Italy",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes full synthesis (FS), fluorescent analogues (FA) and isotope-labelled compounds (IL).",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "CNR-Institute of Biomolecular Chemistry (ICB)",
+  "reference": "www.icb.cnr.it/",
+  "stepFull": "Synthesis & semi-synthesis"
+ },
+ {
+  "id": "EUREMAP_069",
+  "title": "Molecular docking.",
+  "step": "Synthesis",
+  "institution": "Helmholtz Centre for Infection Research",
+  "country": "Germany",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes molecular docking.",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Department of Chemical Biology (CBIO)",
+  "reference": "www.helmholtz-hzi.de/en/research/research-groups/details/chemical-biology/",
+  "stepFull": "Synthesis & semi-synthesis"
+ },
+ {
+  "id": "EUREMAP_070",
+  "title": "Chemical modelling using bioinformatics, chemical libraries, molecular docking and QSAR.",
+  "step": "Synthesis",
+  "institution": "Centro de Ciências do Mar do Algarve",
+  "country": "Portugal",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EMBRC"
+  ],
+  "overview": "Chemical modeling (CM); molecular docking (MD); virtual screening for lead compunds; QSAR",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "Chemistry Platform - CTS",
+  "reference": "ccmar.ualg.pt/en/our-services",
+  "stepFull": "Synthesis & semi-synthesis"
+ },
+ {
+  "id": "EUREMAP_071",
+  "title": "Chemical modelling",
+  "step": "Synthesis",
+  "institution": "CNR",
+  "country": "Italy",
+  "access": [
+   "Remote"
+  ],
+  "ri": [
+   "EU-OPENSCREEN"
+  ],
+  "overview": "This service includes chemical modelling, using bioinformatics, chemical libraries, and molecular networking",
+  "conditions": "Please contact us by email before each service request. Fee-for-service conditions apply.",
+  "unit": "CNR-Institute of Biomolecular Chemistry (ICB)",
+  "reference": "www.icb.cnr.it/",
+  "stepFull": "Synthesis & semi-synthesis"
+ }
+]

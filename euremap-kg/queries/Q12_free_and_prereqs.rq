@@ -1,0 +1,17 @@
+# Q12 — Free services and their data-submission prerequisites
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?id ?title ?repo ?tool
+WHERE {
+  ?s eur:hasFeeModel res:fee-free ; dct:identifier ?id ; dct:title ?title .
+  OPTIONAL { ?s eur:requiresSubmissionTo/skos:prefLabel ?repo }
+  OPTIONAL { ?s eur:usesSoftware/<http://www.w3.org/2000/01/rdf-schema#label> ?tool }
+}
+ORDER BY ?id

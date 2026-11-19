@@ -1,0 +1,19 @@
+# Q04 — Chemical-extraction services able to process at least 10 L of culture
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?id ?provider ?maxLitres ?title
+WHERE {
+  ?s eur:atPipelineStep res:step-chemical-extraction ; dct:identifier ?id ; dct:title ?title ;
+     eur:providedBy/skos:altLabel ?provider ;
+     eur:hasCapacity ?q .
+  ?q eur:quantityKind res:qk-culture-volume ; schema:unitCode "LTR" ; schema:maxValue ?maxLitres .
+  FILTER (?maxLitres >= 10)
+}
+ORDER BY DESC(?maxLitres)

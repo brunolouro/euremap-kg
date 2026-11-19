@@ -1,0 +1,18 @@
+# Q15 — Free-text service search (what a website search box would call): 'kinase' OR 'antifouling'
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?id ?title ?provider ?landing
+WHERE {
+  ?s a eur:Service ; dct:identifier ?id ; dct:title ?title ; dcat:landingPage ?landing ;
+     eur:providedBy/skos:altLabel ?provider .
+  OPTIONAL { ?s dct:description ?d }
+  FILTER (REGEX(CONCAT(STR(?title), " ", COALESCE(STR(?d), "")), "kinase|antifouling", "i"))
+}
+ORDER BY ?id

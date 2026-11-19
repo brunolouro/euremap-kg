@@ -1,0 +1,21 @@
+# Q06 — Which steps can be done entirely within one country? (country × step matrix; gaps = 0)
+#        Example: Portugal. Change the ISO code to test another country.
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?order ?step (COUNT(?s) AS ?servicesInCountry) (GROUP_CONCAT(?id; separator=", ") AS ?ids)
+WHERE {
+  ?st a eur:PipelineStep ; eur:stepOrder ?order ; skos:prefLabel ?step .
+  OPTIONAL {
+    ?s eur:atPipelineStep ?st ; dct:identifier ?id ;
+       eur:providedBy/eur:locatedInCountry/eur:iso3166Alpha2 "PT" .
+  }
+}
+GROUP BY ?order ?step
+ORDER BY ?order

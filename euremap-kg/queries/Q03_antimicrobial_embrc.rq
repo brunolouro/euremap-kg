@@ -1,0 +1,21 @@
+# Q03 — Antimicrobial assays (incl. narrower: antibacterial, antifungal, antibiofilm) offered through EMBRC
+#        Uses the SKOS hierarchy via skos:broader* so one query finds all sub-types.
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?id ?title ?provider ?country (GROUP_CONCAT(DISTINCT ?capL; separator="; ") AS ?assays)
+WHERE {
+  ?cap skos:broader* res:cap-antimicrobial-assay ; skos:prefLabel ?capL .
+  ?s eur:hasCapability ?cap ; dct:identifier ?id ; dct:title ?title ;
+     eur:offeredThrough res:ri-embrc ;
+     eur:providedBy ?p .
+  ?p skos:altLabel ?provider ; eur:locatedInCountry/skos:prefLabel ?country .
+}
+GROUP BY ?id ?title ?provider ?country
+ORDER BY ?id

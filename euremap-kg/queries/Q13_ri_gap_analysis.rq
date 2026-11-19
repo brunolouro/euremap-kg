@@ -1,0 +1,17 @@
+# Q13 — Gap analysis: pipeline steps NOT covered by a given research infrastructure
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?ri ?order ?missingStep
+WHERE {
+  ?r a eur:ResearchInfrastructure ; skos:altLabel ?ri .
+  ?st a eur:PipelineStep ; eur:stepOrder ?order ; skos:prefLabel ?missingStep .
+  FILTER NOT EXISTS { ?s eur:offeredThrough ?r ; eur:atPipelineStep ?st }
+}
+ORDER BY ?ri ?order

@@ -1,0 +1,23 @@
+# Q08 — Where can I send a crude extract? (service-level statement OR step-level default)
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?id ?step ?provider ?basis
+WHERE {
+  {
+    ?s eur:acceptsInput res:mat-crude-extract .
+    BIND("explicit in service text" AS ?basis)
+  } UNION {
+    ?s eur:atPipelineStep/eur:typicalInput res:mat-crude-extract .
+    FILTER NOT EXISTS { ?s eur:acceptsInput res:mat-crude-extract }
+    BIND("step default" AS ?basis)
+  }
+  ?s dct:identifier ?id ; eur:atPipelineStep/skos:prefLabel ?step ; eur:providedBy/skos:altLabel ?provider .
+}
+ORDER BY ?id

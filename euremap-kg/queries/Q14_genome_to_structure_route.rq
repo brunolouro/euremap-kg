@@ -1,0 +1,22 @@
+# Q14 — Assemble a candidate end-to-end route: for each step pick the providers that
+#        could take a strain from genome mining to structure (preferring the same country).
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?order ?step ?country (GROUP_CONCAT(DISTINCT ?acr; separator=", ") AS ?providers)
+WHERE {
+  VALUES ?st { res:step-genomics res:step-biomass-production res:step-chemical-extraction
+               res:step-bioassays res:step-chromatography res:step-structure-elucidation }
+  ?st eur:stepOrder ?order ; skos:prefLabel ?step .
+  ?s eur:atPipelineStep ?st ; eur:providedBy ?p .
+  ?p skos:altLabel ?acr ; eur:locatedInCountry/skos:prefLabel ?country .
+  FILTER (STR(?country) IN ("Norway", "France"))
+}
+GROUP BY ?order ?step ?country
+ORDER BY ?order ?country

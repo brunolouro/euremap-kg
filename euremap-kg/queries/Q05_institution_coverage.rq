@@ -1,0 +1,18 @@
+# Q05 — Pipeline coverage per institution (how many of the 9 steps each partner covers)
+PREFIX eur:    <https://w3id.org/euremap/ontology/>
+PREFIX res:    <https://w3id.org/euremap/resource/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:    <http://purl.org/dc/terms/>
+PREFIX dcat:   <http://www.w3.org/ns/dcat#>
+PREFIX org:    <http://www.w3.org/ns/org#>
+PREFIX schema: <https://schema.org/>
+PREFIX obo:    <http://purl.obolibrary.org/obo/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+SELECT ?provider (COUNT(DISTINCT ?st) AS ?stepsCovered) (COUNT(DISTINCT ?s) AS ?services)
+       (GROUP_CONCAT(DISTINCT ?n; separator=",") AS ?stepNumbers)
+WHERE {
+  ?s eur:providedBy/skos:altLabel ?provider ; eur:atPipelineStep ?st .
+  ?st skos:notation ?n .
+}
+GROUP BY ?provider
+ORDER BY DESC(?stepsCovered) DESC(?services)
